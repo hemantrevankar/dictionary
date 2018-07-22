@@ -1,0 +1,31 @@
+Reference links:
+HTTPMessageConverter are automatically registered when you use the <mvc:annotation-driven>
+https://stackoverflow.com/questions/7462202/spring-json-request-getting-406-not-acceptable
+
+@RestController vs @Controller
+@RestController includes the @Controller and @ResponseBody
+@Controller includes only itself
+For the response to be delivered the @ResponseBody is necessary to be applied either over the controller method
+or over the controller class.
+
+Accessing application.properties value inside spring beans
+https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html
+
+Accessing request headers to add more before making the server call
+https://svenfila.wordpress.com/2012/01/05/resttemplate-with-custom-http-headers/#comment-80
+
+Note: property value cannot be directly injected on a static field using the @Value annotation.
+We must provide a setter function and annotate it with @Value
+https://www.mkyong.com/spring/spring-inject-a-value-into-static-variables/
+
+Mapping JSON field names to Java pojo attributes.
+https://stackoverflow.com/questions/9741134/how-to-map-json-field-names-to-different-object-field-names
+
+Ignoring object fields during serialization and deserialization from/to JSON using the @JsonIgnore or the @JsonIgnoreProperties annotations
+http://www.davismol.net/2015/03/10/jackson-json-difference-between-jsonignore-and-jsonignoreproperties-annotations/
+
+How to tell Jackson to ignore a filed during serialization if its value is null
+https://stackoverflow.com/questions/11757487/how-to-tell-jackson-to-ignore-a-field-during-serialization-if-its-value-is-null
+
+Guide to handling custom exceptions and representing them to end user
+http://www.springboottutorial.com/spring-boot-exception-handling-for-rest-services

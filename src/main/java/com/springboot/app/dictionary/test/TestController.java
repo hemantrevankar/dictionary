@@ -1,4 +1,4 @@
-package com.springboot.exercise.dictionary.test;
+package com.springboot.app.dictionary.test;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -18,8 +18,8 @@ public class TestController {
 		return new Greeting(counter.getAndIncrement(), "Hello " + name);
 	}
 	
-	@RequestMapping(value="/greet", method=RequestMethod.GET)
-	public String greet() {
-		return "Hello User..!";
+	@RequestMapping(value="/greet", method=RequestMethod.GET, produces=MediaType.APPLICATION_JSON_VALUE)
+	public Greeting greet() {
+		return new Greeting(counter.getAndIncrement(), "Hello User..!");
 	}
 }

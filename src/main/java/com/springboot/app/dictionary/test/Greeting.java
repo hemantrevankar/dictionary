@@ -1,4 +1,4 @@
-package com.springboot.exercise.dictionary.test;
+package com.springboot.app.dictionary.test;
 
 public class Greeting {
 	private int id;
