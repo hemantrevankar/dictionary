@@ -29,3 +29,9 @@ https://stackoverflow.com/questions/11757487/how-to-tell-jackson-to-ignore-a-fie
 
 Guide to handling custom exceptions and representing them to end user
 http://www.springboottutorial.com/spring-boot-exception-handling-for-rest-services
+
+Guide to using of LOGBACK logging framework
+https://logback.qos.ch/manual/layouts.html#conversionWord
+https://www.concretepage.com/spring-boot/spring-boot-logging-example
+https://dzone.com/articles/configuring-logback-with-spring-boot
+
